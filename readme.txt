@@ -15,6 +15,10 @@ This plugin requires WooCommerce.
 
 When developing a WooCommerce site I realized there was not a shortcode for displaying the logged in users available downloads outside of the My Account page.  So I developed this simple plugin which adds the short code [woocommerce-my-downloads].  It is simple and effective.  It displays the Date of the order and the file name in an unordered list.
 
+###Usage
+
+= Shortcode = 
+`[woocommerce-my-downloads]`
 
 
 == Installation ==
@@ -25,6 +29,9 @@ When developing a WooCommerce site I realized there was not a shortcode for disp
 == Frequently Asked Questions ==
 = Can I change the template? =
 For right now, you can change the template by editing the /tpl/my-downloads.php file.  In the next release I will have it so you can simply place new template file in your theme directory and modify there.
+= How do I put my downloads shortcode in my template with PHP? =
+Open your template file and the put in `<?php do_shortcode('[woocommerce-my-downloads]'); ?>`
+
 
 == Changelog ==
 = 1.0 =

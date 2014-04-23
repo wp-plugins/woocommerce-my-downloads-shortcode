@@ -5,7 +5,7 @@
  * Plugin URI: http://wordpress.emoxie.com/woocommerce-my-downloads/
  * Description: Creates a shortcode which can be displayed on any page to show users available downloads.
  * Author: Matt Pramschufer
- * Version: 1.0
+ * Version: 1.1
  * Author URI: http://www.emoxie.com/
  */
 if (!class_exists('Woocommerce_My_Downloads')) :
